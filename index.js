@@ -1,15 +1,27 @@
-var sys = require('sys');
-var asciimo = require('asciimo').Figlet;
-var colors = require('colors'); // add colors for fun
-var Overlap = require ("overlap");
-var AsciiFrames = require ("ascii-frames");
+// dependencies
+var Asciimo = require('asciimo').Figlet
+  , Overlap = require ("overlap")
+  , AsciiFrames = require ("ascii-frames")
+  ;
 
+/**
+ * This function creates an ASCII box providing the width and height
+ *
+ */
 function createScreen (w, h) {
+
+    // left top corner
     var screen = "╔";
+
+    // top line
     for (var i = 0; i < w-2; ++i) {
         screen += "═══";
     }
+
+    // top right corner
     screen += "╗";
+
+    // the other lines
     for (var i = 0; i < h; ++i) {
         screen += "\n║";
         for (var ii = 0; ii < w - 2; ++ii) {
@@ -17,11 +29,19 @@ function createScreen (w, h) {
         }
         screen += "║";
     }
+
+    // left bottom corner
     screen += "\n╚";
+
+    // lasst line
     for (var i = 0; i < w-2; ++i) {
         screen += "═══";
     }
+
+    // right bottom corner
     screen += "╝";
+
+    // finally return the generated screen
     return screen;
 }
 
@@ -43,7 +63,7 @@ TextAnimation.start = function (options) {
       , frames = []
       ;
 
-    asciimo.write(text, font, function(art){
+    Asciimo.write(text, font, function(art){
 
         if (options.animate === "down-up") {
             for (var y = options.size.height; y > 1; --y) {
