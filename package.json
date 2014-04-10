@@ -1,6 +1,6 @@
 {
   "name": "text-animation",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create beautiful ASCII text animations using NodeJS.",
   "main": "index.js",
   "directories": {
@@ -15,6 +15,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "node test/hello-world.js"
+    "postinstall": "./installation/libs.sh"
   },
   "keywords": [
     "ascii",
