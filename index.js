@@ -1,5 +1,5 @@
 // dependencies
-var Asciimo = require('asciimo').Figlet
+var Jasciimo = require('jasciimo').Figlet
   , Overlap = require ("overlap")
   , AsciiFrames = require ("ascii-frames")
   ;
@@ -63,7 +63,7 @@ TextAnimation.start = function (options) {
       , frames = []
       ;
 
-    Asciimo.write(text, font, function(art){
+    Jasciimo.write(text, font, function(art){
 
         if (options.animate === "down-up") {
             for (var y = options.size.height; y > 1; --y) {
