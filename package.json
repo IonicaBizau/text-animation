@@ -1,6 +1,6 @@
 {
   "name": "text-animation",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Create beautiful ASCII text animations using NodeJS.",
   "main": "index.js",
   "directories": {
