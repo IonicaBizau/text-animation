@@ -27,6 +27,9 @@ TextAnimation.start({
 ## Example
 
 ## Changelog
+### `v0.1.1`
+ - Use `jasciimo@0.6.0`
+
 ### `v0.1.0`
  - Initial release
 
