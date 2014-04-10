@@ -1,0 +1,27 @@
+{
+  "name": "text-animation",
+  "version": "0.1.0",
+  "description": "Create beautiful ASCII text animations using NodeJS.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ascii-frames": "~0.1.2",
+    "asciimo": "~0.5.0",
+    "colors": "~0.6.2",
+    "overlap": "~0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/hello-world.js"
+  },
+  "keywords": [
+    "ascii",
+    "animate",
+    "node",
+    "npm"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "MIT"
+}
