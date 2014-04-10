@@ -26,6 +26,8 @@ TextAnimation.start({
 
 ## Example
 
+> ![](http://i.imgur.com/7MdhMvi.gif)
+
 ## Changelog
 ### `v0.1.3`
  - Install jasciimo via sudo
