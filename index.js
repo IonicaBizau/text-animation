@@ -65,17 +65,33 @@ TextAnimation.start = function (options) {
 
     Jasciimo.write(text, font, function(art){
 
-        if (options.animate === "down-up") {
-            for (var y = options.size.height; y > 1; --y) {
-                frames.push(Overlap ({
-                    who: screen
-                  , with: art
-                  , where: {
-                        x: 3
-                      , y: y
-                    }
-                }));
-            }
+        switch(options.animate) {
+            case "down-up":
+                for (var y = options.size.height; y > 1; --y) {
+                    frames.push(Overlap ({
+                        who: screen
+                      , with: art
+                      , where: {
+                            x: 3
+                          , y: y
+                        }
+                    }));
+                }
+            break;
+
+            case "up-down":
+                for (var y = 0; y < options.size.height - 4; y++) {
+                    frames.push(Overlap ({
+                        who: screen
+                      , with: art
+                      , where: {
+                            x: 3
+                          , y: y
+                        }
+
+                    }));
+                }
+            break;
         }
 
         // create a new instance
