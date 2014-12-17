@@ -1,6 +1,4 @@
-var TextAnimation = require ("../index")
-  , Util          = require ("util")
-  ;
+var TextAnimation = require("../index");
 
 TextAnimation.start({
     animate: "down-up"
