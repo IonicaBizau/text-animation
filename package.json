@@ -13,8 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node test/hello-world.js",
-    "postinstall": "./installation/libs.sh"
+    "test": "node test/hello-world.js"
   },
   "keywords": [
     "ascii",
