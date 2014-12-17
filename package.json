@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node test/hello-world.js"
+    "test": "node test/index.js"
   },
   "keywords": [
     "ascii",
