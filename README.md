@@ -80,7 +80,7 @@ Creates the animation with provided text.
 ## `v0.1.3`
  - Install `jasciimo` via sudo
 
-## v0.1.2
+## `v0.1.2`
  - Install `jasciimo` via a shell script due to a NPM error
 
 ## `v0.1.1`
