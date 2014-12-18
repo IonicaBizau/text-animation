@@ -19,14 +19,15 @@
   "author": "Ionică Bizău <bizauionica@gmail.com>",
   "contributors": [
     "Ionică Bizău <bizauionica@gmail.com>",
-    "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>"
+    "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>",
+    "Adam Paszke <adam.paszke@gmail.com>"
   ],
   "license": "MIT",
   "dependencies": {
     "figlet": "1.1.0",
     "cli-box": "2.1.1",
-    "cli-frames": "1.0.0",
-    "overlap": "1.4.0"
+    "overlap": "1.4.0",
+    "terminal-control": "0.0.4"
   },
   "repository": {
     "type": "git",
