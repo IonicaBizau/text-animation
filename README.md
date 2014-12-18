@@ -1,45 +1,73 @@
-ASCII Text Animation
-====================
-
+text-animation
+==============
 Create beautiful ASCII text animations using NodeJS.
 
-```js
-var TextAnimation = require ("text-animation");
+# Installation
 
-TextAnimation.start({
-    animate: "down-up"
-  , text: "Hello World!"
-  , delay: 100
-  , size: "40x30"
+```sh
+$ npm install text-animation
+```
+
+# Example
+```js
+// Dependencies
+var TextAnimation = require("../lib");
+
+// Animate bottom-top
+TextAnimation("Hello...", function (err) {
+    if (err) throw err;
+    // And then, top-bottom
+    TextAnimation({
+        text: "...World!"
+      , animation: "top-bottom"
+    });
 });
 ```
 
-## Methods
+The result will be:
 
-### `start (options)`
- - `@options` is an object containing the following fields:
-   - `animate`: the type of animation (only implemented `"down-up"`)
-   - `text`: the text the should be animated
-   - `delay`: the delay between frames
-   - `size`: the size of the box (e.g. `"40x30")
-   - `end`: function that will be fired after finishing animation
+![](http://i.imgur.com/EFXCRRR.gif)
 
-## Example
+# Documentation
+## `TextAnimation(options, callback)`
+Creates the animation with provided text.
 
-> ![](http://i.imgur.com/7MdhMvi.gif)
+### Params
+- **String|Object** `options`: The string value with the text that you want to animate or an object containing the following fields:
 
-## Changelog
-### `v0.1.3`
- - Install jasciimo via sudo
+ - `text` (String): The text that you want to animate.
 
-### `v0.1.2`
- - Install jasciimo via a shell script due to a NPM error
+ - `end` (Function): The handler that will be called when the animation
+   is eneded. If the `callback` parameter is provided, then this
+   field will be overridden (default: an empty function).
 
-### `v0.1.1`
- - Use `jasciimo@0.6.0`
+ - `animation` (String): The animation type. Actually, this is one of
+   filenames from `lib/animations` directory (default: `"bottom-top"`).
 
-### `v0.1.0`
- - Initial release
+ - `delay` (Number): The frame delay in milliseconds (default: `100`).
 
-## LICENSE
-See license file
+ - `size` (String): The size of the box in the following format: `WIDTHxHEIGHT`.
+    If this is not provided, the box will take the fullscreen size.
+
+ - `font` (String): The text font (default: `"Graffiti"`).
+
+Additional fields are added to `options` object:
+
+ - `size` (Array): The provided string is splitted and the value will be an array.
+ - `box` (CliBox): The CliBox wrapper object.
+ - `rText` (String): The rendered text using the Figlet lirary. This is added asynchronously.
+
+- **Function** `callback`: The callback function.
+
+# How to contribute
+1. File an issue in the repository, using the bug tracker, describing the
+   contribution you'd like to make. This will help us to get you started on the
+   right foot.
+2. Fork the project in your account and create a new branch:
+   `your-great-feature`.
+3. Commit your changes in that branch.
+4. Open a pull request, and reference the initial issue in the pull request
+   message.
+
+# License
+See the [LICENSE](./LICENSE) file.
