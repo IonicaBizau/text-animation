@@ -25,8 +25,8 @@
   "dependencies": {
     "figlet": "1.1.0",
     "cli-box": "2.1.1",
-    "cli-frames": "1.0.0",
-    "overlap": "1.4.0"
+    "overlap": "1.4.0",
+    "terminal-control": "0.0.4"
   },
   "repository": {
     "type": "git",
