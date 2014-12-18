@@ -1,2 +1,12 @@
+// Dependencies
 var TextAnimation = require("../lib");
-TextAnimation("Hello World!");
+
+// Animate bottom-top
+TextAnimation("Hello...", function (err) {
+    if (err) throw err;
+    // And then, top-bottom
+    TextAnimation({
+        text: "...World!"
+      , animation: "top-bottom"
+    });
+});
