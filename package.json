@@ -19,7 +19,8 @@
   "author": "Ionică Bizău <bizauionica@gmail.com>",
   "contributors": [
     "Ionică Bizău <bizauionica@gmail.com>",
-    "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>"
+    "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>",
+    "Adam Paszke <adam.paszke@gmail.com>"
   ],
   "license": "MIT",
   "dependencies": {
