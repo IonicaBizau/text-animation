@@ -69,5 +69,21 @@ Additional fields are added to `options` object:
 4. Open a pull request, and reference the initial issue in the pull request
    message.
 
+# Changelog
+## `1.0.0`
+
+
+## `v0.1.3`
+ - Install `jasciimo` via sudo
+
+## v0.1.2
+ - Install `jasciimo` via a shell script due to a NPM error
+
+## `v0.1.1`
+ - Use `jasciimo@0.6.0`
+
+## `v0.1.0`
+ - Initial release
+
 # License
 See the [LICENSE](./LICENSE) file.

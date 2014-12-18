@@ -17,6 +17,10 @@
     "npm"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "contributors": [
+    "Ionică Bizău <bizauionica@gmail.com>",
+    "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>"
+  ],
   "license": "MIT",
   "dependencies": {
     "figlet": "1.1.0",
