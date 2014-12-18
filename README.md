@@ -1,4 +1,4 @@
-text-animation
+Text Animation
 ==============
 Create beautiful ASCII text animations using NodeJS.
 
