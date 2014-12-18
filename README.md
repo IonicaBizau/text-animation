@@ -71,7 +71,11 @@ Additional fields are added to `options` object:
 
 # Changelog
 ## `1.0.0`
-
+ - Removed `jasciimo` as dependency. Fixes #1.
+ - Refactored the code.
+ - Added `cli-box` as dependency. Fixed #2.
+ - Added `top-bottom` animation. Thanks @radubogdan.
+ - Updated the API. See the new documentation and examples.
 
 ## `v0.1.3`
  - Install `jasciimo` via sudo
