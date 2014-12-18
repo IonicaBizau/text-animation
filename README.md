@@ -51,7 +51,7 @@ Creates the animation with provided text.
 
  - `font` (String): The text font (default: `"Graffiti"`).
 
-Additional fields are added to `options` object:
+ Additional fields are added to `options` object:
 
  - `size` (Array): The provided string is splitted and the value will be an array.
  - `box` (CliBox): The CliBox wrapper object.
