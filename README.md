@@ -5,7 +5,7 @@ Create beautiful ASCII text animations using NodeJS.
 ## Installation
 
 ```sh
-$ npm i -g text-animation
+$ npm i text-animation
 ```
 
 ## Example
