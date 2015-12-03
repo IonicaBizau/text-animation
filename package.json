@@ -1,6 +1,6 @@
 {
   "name": "text-animation",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Create beautiful ASCII text animations using NodeJS.",
   "main": "lib/index.js",
   "directories": {
@@ -21,7 +21,7 @@
     "Ionică Bizău <bizauionica@gmail.com>",
     "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>"
   ],
-  "license": "KINDLY",
+  "license": "MIT",
   "dependencies": {
     "figlet": "1.1.0",
     "cli-box": "2.1.1",
