@@ -1,14 +1,18 @@
+
 # text-animation [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/text-animation.svg)](https://www.npmjs.com/package/text-animation) [![Downloads](https://img.shields.io/npm/dt/text-animation.svg)](https://www.npmjs.com/package/text-animation) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Create beautiful ASCII text animations using NodeJS.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save text-animation
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
@@ -25,7 +29,8 @@ TextAnimation("Hello...", function (err) {
 });
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `TextAnimation(options, callback)`
 Creates the animation with provided text.
@@ -56,15 +61,18 @@ Creates the animation with provided text.
  - `rText` (String): The rendered text using the Figlet lirary. This is added asynchronously.
 - **Function** `callback`: The callback function.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`happy-birthday-gabriel`](https://github.com/IonicaBizau/happy-birthday-gabriel)
 
-## License
+ - [`happy-birthday-gabriel`](https://github.com/IonicaBizau/happy-birthday-gabriel)—A NPM module for Gabriel's birthday
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
