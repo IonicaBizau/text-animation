@@ -1,6 +1,6 @@
 {
   "name": "text-animation",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Create beautiful ASCII text animations using NodeJS.",
   "main": "lib/index.js",
   "directories": {
@@ -35,5 +35,17 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/text-animation/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/text-animation"
+  "homepage": "https://github.com/IonicaBizau/text-animation",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "cli.js",
+    "index.js"
+  ]
 }
