@@ -1,6 +1,6 @@
 {
   "name": "text-animation",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Create beautiful ASCII text animations using NodeJS.",
   "main": "lib/index.js",
   "directories": {
@@ -16,7 +16,7 @@
     "node",
     "npm"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "contributors": [
     "Ionică Bizău <bizauionica@gmail.com>",
     "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>"
@@ -40,12 +40,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
