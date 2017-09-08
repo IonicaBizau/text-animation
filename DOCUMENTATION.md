@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Creates the animation with provided text.
 
 #### Params
+
 - **String|Object** `options`: The string value with the text that you want to animate or an object containing the following fields:
 
  - `text` (String): The text that you want to animate.
